@@ -6,7 +6,7 @@ test('imprimir un dato', () => {
   let esperado:string = "hola";
   expect(resultado).toBe(esperado);
 });
-test('aplicar descuentoi', () => {
+test('aplicar descuento', () => {
   let resultado:number = descuentoCompra(50000);
   let esperado:number = 40000;
   expect(resultado).toBe(esperado);
