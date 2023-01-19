@@ -14,3 +14,7 @@ function descuentoCompra(valor:number ): number{
 
 }
 export { entrevista, descuentoCompra }
+
+const result: number = descuentoCompra(60000);
+
+console.log(result); 
